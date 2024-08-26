@@ -1,10 +1,8 @@
+import Slider from "./components/Slider"
+
 function App() {
 
-  return (
-    <>
-    <h1>Hello2</h1>
-    </>
-  )
+  return <Slider/>
 }
 
 export default App
