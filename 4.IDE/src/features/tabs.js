@@ -7,9 +7,10 @@ const initialState = [
     lang: "html",
     imgURL: html,
     buttonContent: "HTML",
-    code: `<div>
-    <h1>Éditeur de code avec React</h1>
-    <p>Codez directement sur votre navigateur.</p>
+    code: `
+    <div>
+      <h1>Éditeur de code avec React</h1>
+      <p>Codez directement sur votre navigateur.</p>
     </div>
     `
   },
@@ -18,7 +19,8 @@ const initialState = [
     lang: "css",
     imgURL: css,
     buttonContent: "CSS",
-    code: `body {
+    code: `
+    body {
       font-family: Roboto, sans-serif;
       padding: 25px;
       color: #111;
@@ -27,11 +29,12 @@ const initialState = [
     `
   },
   {
-    id: 1,
+    id: 3,
     lang: "javascript",
     imgURL: js,
     buttonContent: "JavaScript",
-    code: `console.log("Hello Wolrd");
+    code: `
+    console.log("Hello Wolrd");
     `
   }
 ]
